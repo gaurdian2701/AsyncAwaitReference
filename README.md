@@ -7,5 +7,5 @@ This is the output for class AsyncAwait1:
 This is the output for class AsyncAwait2:
 ![be60655c-d68c-44d9-8ace-c9c2f688b705](https://github.com/gaurdian2701/AsyncAwaitReference/assets/55644010/b769f923-b058-4bb0-8fb1-e1120fb38172)
 
-Both are the same, it's just that I added a lambda task in the AsyncAwait1 class to show that awaited functions allow us to catch the returned values(or do they even get returned at all?).
+Both are the same, it's just that I added a lambda task in the AsyncAwait1 class to show that awaited functions allow us to catch the returned values(do they even get returnd at all if await is not used?).
 As of now I don't know whether asynchronous(non-awaited) functions allow us to catch updated values as well, but I will update this repo in case I come across a solution.

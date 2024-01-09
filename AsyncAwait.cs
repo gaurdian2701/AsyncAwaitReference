@@ -35,7 +35,7 @@ public class AsyncAwait1 : MonoBehaviour
         Debug.Log("Task 1 started. Wait for 3 seconds...");
         await Task.Delay(3000);
         Debug.Log("Task 1 Completed. Returning value: ");
-        return 30; // This will not get returned
+        return 30; // This will not get returned/get caught (which one actually?)
     }
 }
 

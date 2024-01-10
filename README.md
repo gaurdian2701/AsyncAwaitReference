@@ -9,3 +9,6 @@ This is the output for class AsyncAwait2:
 
 Both are the same, it's just that I added a lambda task in the AsyncAwait1 class to show that awaited functions allow us to catch the returned values(do they even get returned at all if await is not used?).
 As of now I don't know whether asynchronous(non-awaited) functions allow us to catch updated values as well, but I will update this repo in case I come across a solution.
+
+IMPORTANT: 
+- Coroutines actually automatically stop running when the editor stops playing the game, whereas async await functions keep continuing after play mode has been stopped

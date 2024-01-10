@@ -45,7 +45,7 @@ public class AsyncAwait1 : MonoBehaviour
 //   We would wait for Func1 to finish executing, and then when it finishes, Func2 starts executing.
 //   If a function uses await keyword, it will need the async keyword included in it's declaration, just like all the functions present here.
 //   If we didn't use await on both the functions(which is the case over here), we don't need the async keyword in the function declaration.  
-//   This means that the functions will run ASYNCHRONOUSLY IN THE BACKGROUND, WE DON'T USE THE AWAIT KEYWORD FOR ASYNCHRONOUS FUNCTIONS.
+//   This means that the functions will run PARALLELLY IN THE BACKGROUND, WE DON'T USE THE AWAIT KEYWORD FOR PARALLEL FUNCTIONS.
 //   Here's an example of that:
 
 public class AsyncAwait2 : MonoBehaviour
